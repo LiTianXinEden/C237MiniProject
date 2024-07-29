@@ -10,10 +10,15 @@ const app = express();
 
 //Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'bakery_app'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'bakery_app'
+
+    host: 'sql.freedb.tech',
+    user: 'freedb_EdenLi',
+    password: 'KMXn9dt#rrPcc6y',
+    database: 'freedb_bakery_app'
 });
 
 connection.connect((err) => {
