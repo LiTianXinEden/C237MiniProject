@@ -15,10 +15,10 @@ const connection = mysql.createConnection({
     // password: '',
     // database: 'bakery_app'
 
-    host: 'sql.freedb.tech',
-    user: 'freedb_EdenLi',
-    password: 'KMXn9dt#rrPcc6y',
-    database: 'freedb_bakery_app'
+    host: 'pro.freedb.tech',
+    user: '	pandas',
+    password: '	qjj3BGQTr7nf2R$',
+    database: 'pandasdb'
 });
 
 connection.connect((err) => {
