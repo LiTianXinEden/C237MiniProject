@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-sm navbar-custom">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/products"><img src="/images/superiorbigbao.png" alt="Avatar Logo" style="width:40px; height: 40px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" href="/products">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cart">Cart</a>
+                </li>
+                <% if (!user) { %>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <% } else { %>
+                <% if (user.role === 'admin') { %>
+                <li class="nav-item">
+                    <a class="nav-link" href="/adminView">AdminView</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/addProduct">Add Product</a>
+                </li>
+                <% } %>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">Logout</a>
+                </li>
+                <% } %>
+            </ul>
+            <!-- <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn search-btn" type="button">Search</button>
+            </form> -->
+        </div>
+    </div>
+</nav>

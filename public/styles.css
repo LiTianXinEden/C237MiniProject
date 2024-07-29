@@ -1,0 +1,164 @@
+body {
+    font-size: 16px;
+    font-family: 'Rubik', 'Trebuchet MS', sans-serif;
+}
+.top-word {
+    text-align: center;
+    text-decoration: underline;
+    color: #792808;
+}
+img {
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.desc {
+    text-align: center;
+    text-decoration: underline;
+    color: #792808;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=========================================================================*/
+/*cart css*/
+.card .card-title {
+    text-align: center;
+    text-decoration: underline;
+    color: #792808;
+}
+.card {
+    margin: 10px;
+    height: 400px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-login {
+    border-color: #8ab478;
+    border-width: 5px;
+    height: 400px;
+}
+
+/*=========================================================================*/
+/*navbar css*/
+.navbar-custom {
+    background-color: #b1824c;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #f5f3db;
+    font-family: 'Margarine', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+/*=========================================================================*/
+/*search button css*/
+.search-btn {
+    background-color: #EFE5DB;
+}
+.search-btn:hover {
+    background-color: #D6CABE;
+}
+
+/*=========================================================================*/
+/*cart button css*/
+.cart-btn {
+    background-color: #FFB7C2;
+}
+.cart-btn:hover {
+    background-color: #eaa7b2;
+}
+
+/*=========================================================================*/
+/*submit button css*/
+.submit-btn {
+    background-color: #FFB7C2;
+}
+.submit-btn:hover {
+    background-color: #F6B1BC;
+}
+
+/*=========================================================================*/
+/*edit button css*/
+.edit-btn {
+    background-color: #b8e094;
+}
+.edit-btn:hover {
+    background-color: #a6ca87;
+}
+
+/*=========================================================================*/
+/*remove button css*/
+.remove-btn {
+    background-color: #f0a17a;
+}
+.remove-btn:hover {
+    background-color: #dd9470;
+}
+
+/*=========================================================================*/
+/*continue button css*/
+.continue-btn {
+    background-color: #8eb6ff;
+}
+.continue-btn:hover {
+    background-color: #779ada;
+}
+
+/*=========================================================================*/
+/*review button css*/
+.review-btn {
+    background-color: #91cbd4;
+}
+.review-btn:hover {
+    background-color: #82c0ca;
+}
+
+/*=========================================================================*/
+/*quantity button css*/
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity-btn {
+    background-color: #4fc6e0;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 10px;
+    /* cursor: pointer; */
+}
+.quantity-btn:hover {
+    background-color: #48b9d2;
+}
+.quantity-btn.disabled {
+    background-color: #ccc;
+    /* cursor: not-allowed; */
+}
+.quantity-display {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f5e9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
